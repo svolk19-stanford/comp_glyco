@@ -1,0 +1,96 @@
+REMARK VINA RESULT:    -3.771      5.185      9.841
+REMARK INTER + INTRA:          -7.547
+REMARK INTER:                  -5.266
+REMARK INTRA:                  -2.281
+REMARK UNBOUND:                -3.335
+REMARK SMILES Cc1cn(-c2ccccc2C(N)=O)nn1
+REMARK SMILES IDX 5 1 10 2 9 3 8 4 7 5 6 6 4 7 1 8 2 9 3 10 15 11 14 12 11 13
+REMARK SMILES IDX 13 14 12 15
+REMARK H PARENT 12 16 12 17
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  C   UNL     1      26.766  37.431   7.732  1.00  0.00     0.079 A 
+ATOM      2  C   UNL     1      27.594  36.849   6.811  1.00  0.00     0.065 A 
+ATOM      3  C   UNL     1      27.797  35.480   6.887  1.00  0.00     0.016 A 
+ATOM      4  C   UNL     1      27.193  34.709   7.851  1.00  0.00     0.001 A 
+ATOM      5  C   UNL     1      26.359  35.314   8.775  1.00  0.00     0.002 A 
+ATOM      6  C   UNL     1      26.154  36.672   8.705  1.00  0.00     0.029 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N   UNL     1      26.548  38.859   7.661  1.00  0.00    -0.220 N 
+ATOM      8  C   UNL     1      27.055  42.410   8.494  1.00  0.00     0.070 C 
+ATOM      9  C   UNL     1      26.679  41.062   8.001  1.00  0.00     0.080 A 
+ATOM     10  C   UNL     1      27.174  39.825   8.358  1.00  0.00     0.140 A 
+ATOM     11  N   UNL     1      25.743  40.803   7.072  1.00  0.00    -0.135 NA
+ATOM     12  N   UNL     1      25.684  39.494   6.889  1.00  0.00    -0.062 NA
+ENDBRANCH   1   7
+BRANCH   2  13
+ATOM     13  C   UNL     1      28.231  37.668   5.791  1.00  0.00     0.250 C 
+ATOM     14  O   UNL     1      29.404  38.069   5.993  1.00  0.00    -0.269 OA
+ATOM     15  N   UNL     1      27.555  38.022   4.577  1.00  0.00    -0.366 N 
+ATOM     16  H   UNL     1      27.311  39.002   4.408  1.00  0.00     0.159 HD
+ATOM     17  H   UNL     1      27.344  37.256   3.921  1.00  0.00     0.159 HD
+ENDBRANCH   2  13
+TORSDOF 2
+BEGIN_RES LYS A 135
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK    3  A    between atoms: CG   and  CD  
+REMARK    4  A    between atoms: CD   and  CE  
+ROOT
+ATOM      1  CA  LYS A 135      33.193  34.663   9.290  1.00 25.02     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  LYS A 135      32.060  35.360  10.034  1.00 26.63     0.034 C 
+BRANCH   2   3
+ATOM      3  CG  LYS A 135      30.751  35.346   9.288  1.00 29.45     0.005 C 
+BRANCH   3   4
+ATOM      4  CD  LYS A 135      29.879  36.518   9.712  1.00 32.00     0.041 C 
+BRANCH   4   5
+ATOM      5  CE  LYS A 135      30.498  37.830   9.270  1.00 34.25     0.338 C 
+ATOM      6  NZ  LYS A 135      30.575  38.795  10.402  1.00 35.99     0.618 N 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES LYS A 135
+BEGIN_RES TYR A 136
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+ROOT
+ATOM      7  CA  TYR A 136      36.583  36.399   8.994  1.00 26.14     0.191 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CB  TYR A 136      37.367  36.835  10.240  1.00 28.16     0.060 C 
+BRANCH   8   9
+ATOM      9  CG  TYR A 136      37.189  38.300  10.554  1.00 31.88    -0.020 A 
+ATOM     10  CD2 TYR A 136      38.275  39.178  10.546  1.00 32.67    -0.002 A 
+ATOM     11  CE2 TYR A 136      38.099  40.537  10.841  1.00 33.89     0.027 A 
+ATOM     12  CZ  TYR A 136      36.825  41.022  11.148  1.00 34.34     0.131 A 
+ATOM     13  OH  TYR A 136      36.626  42.365  11.436  1.00 35.14    -0.190 OA
+ATOM     14  CE1 TYR A 136      35.735  40.163  11.161  1.00 35.01     0.027 A 
+ATOM     15  CD1 TYR A 136      35.924  38.810  10.872  1.00 33.57    -0.002 A 
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+END_RES TYR A 136
+BEGIN_RES ASN A 133
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    7  A    between atoms: CA   and  CB  
+REMARK    8  A    between atoms: CB   and  CG  
+ROOT
+ATOM     16  CA  ASN A 133      31.225  30.257  11.749  1.00 18.15     0.196 C 
+ENDROOT
+BRANCH  16  17
+ATOM     17  CB  ASN A 133      30.092  31.240  11.460  1.00 18.27     0.126 C 
+BRANCH  17  18
+ATOM     18  CG  ASN A 133      28.752  30.582  11.347  1.00 18.94     0.276 C 
+ATOM     19  OD1 ASN A 133      28.582  29.601  10.620  1.00 18.09    -0.269 OA
+ATOM     20  ND2 ASN A 133      27.774  31.122  12.073  1.00 18.93    -0.107 N 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+END_RES ASN A 133
