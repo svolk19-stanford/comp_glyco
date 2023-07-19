@@ -15,7 +15,7 @@ scores = []
 energies = []
 # for i in range(82, len(ligands['smiles'])):
 #     lig = ligands['smiles'][i]
-for i in tqdm(range(len(ligands['smiles']))):
+for i in tqdm(range(65, len(ligands['smiles']))):
     lig = ligands['smiles'][i]
     mol = Chem.MolFromSmiles(lig)
     protonated_lig = Chem.AddHs(mol)
@@ -40,32 +40,19 @@ for i in tqdm(range(len(ligands['smiles']))):
     # v.optimize()
     v.dock(exhaustiveness=32, n_poses=20)
     output_pdbqt = v.poses(n_poses=20)
-    # energy = v.energies(num_poses)
+    energy = v.energies(num_poses)
     # print(energy)
     # assert(False)
-    # energy = [i[0] for i in energy]
-    # energies.append(energy)
-    # output_energies = pd.DataFrame(energies, columns=[str(i) for i in range(num_poses)])
-    # output_energies.to_csv("../out/output_energies_2HRL_fragment_32.csv")
-
-    # pmol = meeko.PDBQTMolecule(output_pdbqt)
-    # score = []
-    # for j, pose in enumerate(pmol):
-    #     score.append(pmol.score)
-    #     pmol.write_pdbqt_file(f'../out/2hrl_poses_fragment_32/ligand_{i}_pose_{j}_2HRL.pdbqt', overwrite=True)
-    # scores.append(score)
-    # output_scores = pd.DataFrame(scores, columns=[str(j) for j in range(num_poses)])
-    # output_scores.to_csv("../out/output_scores_2HRL_fragment_32.csv")
+    energy = [i[0] for i in energy]
+    energies.append(energy)
+    output_energies = pd.DataFrame(energies, columns=[str(i) for i in range(num_poses)])
+    output_energies.to_csv("../out/2hrl_poses_subst_sia/output_energies.csv")
 
     pmol = meeko.PDBQTMolecule(output_pdbqt)
-    f = Chem.SDWriter(f'../out/subst_sia_sdfs/docked_poses_{i}.sdf')
-    for pose in pmol:
-        output_rdmol = pmol.export_rdkit_mol()
-        output_rdmol_w_bond_order = Chem.AllChem.AssignBondOrdersFromTemplate(
-            lig, output_rdmol)
-        f.write(output_rdmol_w_bond_order)
-    f.close()
+    for j, pose in enumerate(pmol):
+        pmol.write_pdbqt_file(f'../out/2hrl_poses_subst_sia/ligand_{i}_pose_{j}_2HRL.pdbqt', overwrite=True)
 
+    assert(False)
     # y_hat = [j[0] for j in energies]
     # y = affinities[:(i + 1)]
     # slope, intercept, r_value, p_value, std_err = stats.linregress(y,y_hat)

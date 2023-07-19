@@ -1,0 +1,101 @@
+REMARK SMILES CC(O)N[C@H]1[C@H]([C@H](O)[C@H](O)CNC(O)OCCC2CN(CC3CCC(Br)CC3)NN2)O[C@@H](C(O)O)C[C@@H]1O
+REMARK SMILES IDX 12 1 13 3 15 4 16 5 17 6 18 7 30 8 29 9 20 11 19 13 21 14
+REMARK SMILES IDX 22 15 28 16 23 17 27 18 24 19 25 20 26 21 14 22 11 24 9 25
+REMARK SMILES IDX 7 26 6 27 5 28 31 29 37 30 32 31 36 32 4 33 2 35 1 36 3 37
+REMARK SMILES IDX 38 39 33 41 34 42 35 44 8 46 10 48
+REMARK H PARENT 12 2 30 10 29 12 14 23 4 34 3 38 38 40 34 43 35 45 8 47 10 49
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  N04 SIA B   4      -1.225   0.319   0.482  1.00  0.00    -0.266 NA
+ATOM      2  H   UNL     1      -1.203  -0.683   0.725  1.00  0.00     0.127 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C02 SIA B   4       0.139   0.863   0.422  1.00  0.00     0.325 C 
+BRANCH   3   4
+ATOM      4  O01 SIA B   4       0.781   0.271  -0.647  1.00  0.00    -0.340 OA
+BRANCH   4   5
+ATOM      5  C01 SIA B   4       1.937  -0.349  -0.279  1.00  0.00     0.166 C 
+BRANCH   5   6
+ATOM      6  C03 SIA B   4       2.987   0.556   0.301  1.00  0.00     0.050 C 
+BRANCH   6   7
+ATOM      7  C04 SIA B   4       4.240  -0.190   0.689  1.00  0.00     0.088 C 
+ATOM      8  N   SIA B   4       4.800  -0.815  -0.479  1.00  0.00    -0.240 NA
+ATOM      9  N15 SIA B   4       5.363   0.218  -1.215  1.00  0.00    -0.191 NA
+ATOM     10  H   UNL     1       4.246  -1.498  -0.962  1.00  0.00     0.143 HD
+ATOM     11  N06 SIA B   4       5.849   1.140  -0.281  1.00  0.00    -0.229 NA
+ATOM     12  H   UNL     1       4.619   0.648  -1.805  1.00  0.00     0.161 HD
+ATOM     13  C05 SIA B   4       5.316   0.841   0.998  1.00  0.00     0.124 C 
+BRANCH  11  14
+ATOM     14  C07 SIA B   4       7.219   1.415  -0.402  1.00  0.00     0.107 C 
+BRANCH  14  15
+ATOM     15  C08 SIA B   4       8.220   0.357  -0.243  1.00  0.00     0.005 C 
+ATOM     16  C   SIA B   4       8.094  -0.784  -1.234  1.00  0.00     0.006 C 
+ATOM     17  C09 SIA B   4       8.419  -0.249   1.097  1.00  0.00     0.006 C 
+ATOM     18  C14 SIA B   4       9.469  -1.410  -1.352  1.00  0.00     0.015 C 
+ATOM     19  C12 SIA B   4       9.797  -0.901   1.103  1.00  0.00     0.015 C 
+ATOM     20  C13 SIA B   4      10.406  -1.039  -0.250  1.00  0.00     0.057 C 
+ATOM     21 Br   SIA B   4      11.705  -2.497  -0.123  1.00  0.00    -0.089 Br
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  22
+ATOM     22  O02 SIA B   4       0.012   2.255   0.233  1.00  0.00    -0.356 OA
+ATOM     23  H   UNL     1       0.393   2.460  -0.658  1.00  0.00     0.215 HD
+ENDBRANCH   3  22
+ENDBRANCH   1   3
+BRANCH   1  24
+ATOM     24  C9  SIA B   4      -1.905   0.565  -0.763  1.00  0.00     0.120 C 
+BRANCH  24  25
+ATOM     25  C8  SIA B   4      -3.322   0.029  -0.686  1.00  0.00     0.159 C 
+BRANCH  25  26
+ATOM     26  C7  SIA B   4      -4.067   0.770   0.393  1.00  0.00     0.175 C 
+BRANCH  26  27
+ATOM     27  C6  SIA B   4      -5.423   0.184   0.684  1.00  0.00     0.169 C 
+ATOM     28  C5  SIA B   4      -6.303   0.421  -0.529  1.00  0.00     0.116 C 
+ATOM     29  O6  SIA B   4      -5.287  -1.113   1.058  1.00  0.00    -0.365 OA
+ATOM     30  C4  SIA B   4      -7.571  -0.349  -0.486  1.00  0.00     0.137 C 
+ATOM     31  C2  SIA B   4      -6.120  -2.024   0.479  1.00  0.00     0.177 C 
+ATOM     32  C3  SIA B   4      -7.534  -1.440   0.603  1.00  0.00     0.071 C 
+BRANCH  28  33
+ATOM     33  N5  SIA B   4      -6.460   1.757  -0.854  1.00  0.00    -0.285 NA
+ATOM     34  H   UNL     1      -6.187   2.046  -1.822  1.00  0.00     0.125 HD
+BRANCH  33  35
+ATOM     35  C10 SIA B   4      -7.122   2.713  -0.100  1.00  0.00     0.179 C 
+ATOM     36  C11 SIA B   4      -8.582   2.601   0.160  1.00  0.00     0.056 C 
+BRANCH  35  37
+ATOM     37  O10 SIA B   4      -6.990   3.942  -0.827  1.00  0.00    -0.379 OA
+ATOM     38  H   UNL     1      -7.712   3.912  -1.500  1.00  0.00     0.212 HD
+ENDBRANCH  35  37
+ENDBRANCH  33  35
+ENDBRANCH  28  33
+BRANCH  30  39
+ATOM     39  O4  SIA B   4      -7.738  -1.107  -1.683  1.00  0.00    -0.391 OA
+ATOM     40  H   UNL     1      -6.854  -1.081  -2.159  1.00  0.00     0.211 HD
+ENDBRANCH  30  39
+BRANCH  31  41
+ATOM     41  C1  SIA B   4      -5.997  -3.316   1.273  1.00  0.00     0.273 C 
+BRANCH  41  42
+ATOM     42  O1A SIA B   4      -6.789  -4.323   0.782  1.00  0.00    -0.366 OA
+ATOM     43  H   UNL     1      -7.721  -4.113   0.939  1.00  0.00     0.213 HD
+ENDBRANCH  41  42
+BRANCH  41  44
+ATOM     44  O1B SIA B   4      -6.242  -3.059   2.632  1.00  0.00    -0.366 OA
+ATOM     45  H   UNL     1      -6.026  -3.898   3.134  1.00  0.00     0.213 HD
+ENDBRANCH  41  44
+ENDBRANCH  31  41
+ENDBRANCH  26  27
+BRANCH  26  46
+ATOM     46  O7  SIA B   4      -4.129   2.120  -0.005  1.00  0.00    -0.388 OA
+ATOM     47  H   UNL     1      -3.942   2.238  -0.962  1.00  0.00     0.211 HD
+ENDBRANCH  26  46
+ENDBRANCH  25  26
+BRANCH  25  48
+ATOM     48  O8  SIA B   4      -3.207  -1.330  -0.428  1.00  0.00    -0.389 OA
+ATOM     49  H   UNL     1      -3.061  -1.444   0.539  1.00  0.00     0.211 HD
+ENDBRANCH  25  48
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 21
